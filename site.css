@@ -125,3 +125,20 @@ h1 {
     border-radius: 3px;
     border: 1px solid #f5f5f5;
 }
+
+.adv-block {
+    border: 1px solid #f5f5f5;
+    border-radius: 2px;
+    width: 998px;
+}
+
+.adv-content {
+    padding: 20px;
+    border-bottom: 1px solid #fafafa;
+}
+
+.adv-block-text {
+    padding: 20px;
+    background: #f5f5f5;
+    color: #757575;
+}
