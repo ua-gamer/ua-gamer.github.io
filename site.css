@@ -188,10 +188,11 @@ footer {
 
 a {
     text-decoration: none;
+    color: #424242;
 }
 
 a:visited {
-    color: #424242;
+    color: #757575;
 }
 
 .image-block {
