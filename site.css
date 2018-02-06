@@ -191,7 +191,7 @@ a {
     color: #424242;
 }
 
-a:visited {
+a:visited, a:hover {
     color: #757575;
 }
 
