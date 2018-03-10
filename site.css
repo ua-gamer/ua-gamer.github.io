@@ -275,6 +275,22 @@ h1 {
     display: inline-block;
 }
 
+.header-links {
+    text-align: right;
+}
+
+a.origin-link {
+    background: #f56c2d;
+    display: inline-block;
+    padding: 10px 50px;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+a.origin-link:hover {
+    color: #424242;
+}
+
 @media (max-width: 1024px) {
     .nav {
         width: auto;
