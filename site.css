@@ -291,6 +291,113 @@ a.origin-link:hover {
     color: #424242;
 }
 
+.article-summary{
+    padding: 20px 10px;
+    background: #e5e5e5;
+    border-radius: 3px;
+}
+
+.steam-curator-header {
+    padding: 5px 5px 5px 80px;
+    color: #757575;
+    background-image: url('images/steam-logo-50px.png');
+    background-position: left 10px  center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.steam-curator-header a,
+.steam-curator-header a:hover {
+    color: #757575;
+}
+
+.go-to-discussion {
+    background-image: url('images/ic_comment_black_48dp_2x.png');
+    display: block;
+    padding: 20px 10px 20px 90px;
+    background-color: #e5e5e5;
+    background-size: 40px;
+    background-position: left 30px center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+.head-paragraph {
+    display: inline-block;
+    width: 639px;
+    margin-right: 55px;;
+}
+
+.head-summary {
+    display: inline-block;
+    width: 300px;
+    background-color: #d0d0d0;
+    height: 100%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+
+.head-summary > a {
+    padding: 20px;
+    border-bottom: 1px solid #d0d0d0;
+    display: block;
+}
+
+.head-summary > a:first-of-type {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.head-summary > a:last-of-type {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
+.head-summary > a:hover {
+    background-color: #e5e5e5;
+}
+
+.head-summary > a:last-of-type{
+    border-bottom: none;
+}
+
+.head-summary .discussion {
+    background-image: url('images/ic_comment_black_48dp_2x.png');
+    background-position: left 15px center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+}
+
+.head-summary .author {
+    background-image: url('images/ic_account_circle_black_48dp_2x.png');
+    background-position: left 15px center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+}
+
+.head-summary .game {
+    background-image: url('images/ic_videogame_asset_black_48dp_2x.png');
+    background-position: left 15px center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+}
+
+.content-discussion-link {
+    background: url('images/ic_comment_black_48dp_2x.png') no-repeat #d0d0d0;
+    background-position: left 15px center;
+    background-size: 50px;
+    padding: 20px 80px;
+    display: block;
+    border-radius: 3px;
+}
+
+.content-discussion-link:hover{
+    background-color: #e5e5e5;
+}
+
 @media (max-width: 1024px) {
     .nav {
         width: auto;

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<login>
+<verbatiminput>
+<in_username><![CDATA[qcadmuser]]></in_username>
+</verbatiminput>
+<effectiveinput>
+<ef_username><![CDATA[qcadmuser]]></ef_username>
+</effectiveinput>
+<error>
+	<errormessage errornumber="40">No Password found</errormessage>
+</error>
+</login>
