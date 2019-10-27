@@ -1,5 +1,5 @@
 html {
-    background: #ffffff;
+    background: #111835;
     font-family: Roboto, sans-serif;
 }
 
@@ -11,12 +11,11 @@ body {
 }
 
 .header {
-    box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.4);
     margin-bottom: 5px;
     padding: 5px 0;
-    background: rgba(255, 255, 255, 0.75);
     color: #424242;
     font-size: 20px;
+    background-color: #11183575;
 }
 
 .body-content {
@@ -25,21 +24,29 @@ body {
 }
 
 .container {
-    background: #ffffff;
+    background: #111835;
 }
 
 .content {
-    padding: 30px 0;
     margin: 0 auto;
     width: 970px;
     font-size: 20px;
-    color: #757575;
+    color: #adb4c4;
     line-height: 1.8;
     padding: 50px;
 }
 
+.content.article-content {
+    text-align: justify;
+    font-size: 20px;
+    color: #adb4c4;
+    line-height: 1.8;
+    padding: 200px 50px 50px 50px;
+}
+
 footer > .content {
-    width: 1400px;
+    width: 970px;
+    padding: 30px 0;
 }
 
 .featured-content {
@@ -100,7 +107,7 @@ footer > .content {
 .nav {
     padding: 0;
     margin: 0 auto;
-    width: 1400px;
+    width: 970px;
 }
 
     .nav > li {
@@ -113,17 +120,17 @@ footer > .content {
         }
 
             .nav > li > a:hover {
-                color: #606060;
+                color: #ffffff;
             }
 
             .nav > li > a:visited, .nav > li > a:active {
-                color: #757575;
+                color: #ADB4AC;
             }
 
 .title {
     display: inline-block;
     padding: 24.5px 60px;
-    background: url(images/logo-yellow-blue-50px.png) no-repeat;
+    background: url(/images/logo-yellow-blue-50px.png) no-repeat;
     background-position: left center;
     width: 274px;
 }
@@ -134,27 +141,21 @@ footer > .content {
 }
 
 footer {
-    background: #EEEEEE;
 }
 
-    footer > a {
-        color: #757575;
-    }
-
     footer a:hover {
-        color: #757575;
     }
 
     footer a:visited, footer a:active {
-        color: #757575;
+        color: #ADB4AC;
     }
 
     footer > .content > div {
-        display: inline-block;
+        display: block;
     }
 
     footer .social-links {
-        margin-left: 968px;
+        text-align: right;        
     }
 
 .facebook-footer-link {
@@ -162,20 +163,19 @@ footer {
     height: 36px;
     width: 36px;
     padding: 0;
-    background: url('images/f-logo-50px.png') no-repeat;
+    background: url('/images/f-logo-50px.png') no-repeat;
     background-size: contain;
     vertical-align: bottom;
 }
 
 .steam-footer-link {
-    margin-right: 20px;
     display: inline-block;
     height: 36px;
-    width: 36px;
     padding: 0;
-    background: url('images/steam-logo-50px.png') no-repeat;
+    background: url('https://steamcdn-a.akamaihd.net/store/about/icon-steamos.svg') no-repeat;
     background-size: contain;
-    vertical-align: bottom;
+    padding-left: 50px;
+    color: #ADB4AC;
 }
 
 .group-footer-link {
@@ -184,7 +184,7 @@ footer {
     height: 36px;
     width: 36px;
     padding: 0;
-    background: url('images/group-50px.png') no-repeat;
+    background: url('/images/group-50px.png') no-repeat;
     background-size: contain;
     vertical-align: bottom;
 }
@@ -195,7 +195,7 @@ a {
 }
 
 a:visited {
-    color: #424242;
+    color: #adb4c4;
 }
 
 .image-block {
@@ -211,14 +211,18 @@ a:visited {
 }
 
 .article-header {
-    background: #ffffff;
-    color: #424242;
-    padding: 50px 100px;
-    margin: 622px auto 0 auto;
+    position: relative;
+    top: 150px;
+    background: #181d3a;
+    color: #adb4c4;
+    padding: 50px 75px;
+    margin: 300px auto 0 auto;
     width: 970px;
-    opacity: 0.75;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+.article-header h1 {
+    margin: 0;
 }
 
 h1 {
@@ -230,49 +234,51 @@ h1 {
 }
 
 .in-article-image {
-    width: 968px;
-    border-radius: 5px;
-    border: 1px solid #f5f5f5;
-}
-
-.adv-block {
-    border: 1px solid #f5f5f5;
     width: 970px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
-.adv-content {
-    background: #f5f5f5;
-    border-bottom: 1px solid #e5e5e5;
-    height: 250px;
-}
-
-.adv-block-text {
-    padding: 15px 20px;
-    background: #f5f5f5;
-    color: #757575;
+.money-block {
+    width: 950px;
+    padding: 10px;
+    background: #212D4B;
+    border-radius: 5px;
+    height: 200px;
+    margin: 25px 0;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
 .article-list-item {
     display: block;
-    background: #f5f5f5;
+    background: #212D4B;
     margin-bottom: 10px;
-    border-radius: 3px;
-    height: 100px;
+    border-radius: 5px;
+    height: 150px;
+    color: #ADB4AC;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    font-size: 14px;
+    background-size: 321px;
+    background-repeat: no-repeat;
+    padding-left: 350px;
+    cursor: pointer;
 }
 
-.article-list-item .article-tile-image {
-    height: 100px;
-    width: 214px;
-    background-size: contain;
+.article-list-item:hover {
+    color: #efefef;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.75);
+}
+
+.article-list-item .article-cat {
     display: inline-block;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    margin-bottom: 5px;
 }
 
 .article-list-item .article-title {
-    padding: 32px 30px;
+    padding: 10px 0 5px;
     vertical-align: top;
     display: inline-block;
+    font-size: 20px;
 }
 
 .header-links {
@@ -308,11 +314,11 @@ a.origin-link:hover {
 
 .steam-curator-header a,
 .steam-curator-header a:hover {
-    color: #757575;
+    color: #ffffff;
 }
 
 .go-to-discussion {
-    background-image: url('images/ic_comment_black_48dp_2x.png');
+    background-image: url('/images/ic_comment_black_48dp_2x.png');
     display: block;
     padding: 20px 10px 20px 90px;
     background-color: #e5e5e5;
@@ -324,44 +330,32 @@ a.origin-link:hover {
 
 .head-paragraph {
     display: inline-block;
-    width: 609px;
-    margin-right: 55px;;
+    margin-top: 30px;
 }
 
-.head-summary {
-    display: inline-block;
-    width: 300px;
-    background-color: #d0d0d0;
+.head-links {
+    color: #adb4c4;
+    display: block;
+    background-color: #181d3a;
     height: 100%;
-    vertical-align: top;
+    border-radius: 5px;
+}
+
+.head-links > a {
+    padding: 20px;
+    display: inline-block;
     border-radius: 3px;
 }
 
-.head-summary > a {
-    padding: 20px;
-    border-bottom: 1px solid #d0d0d0;
-    display: block;
+.head-links > a:hover {
+    color: #ffffff;
 }
 
-.head-summary > a:first-of-type {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-}
-.head-summary > a:last-of-type {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-
-
-.head-summary > a:hover {
-    background-color: #e5e5e5;
-}
-
-.head-summary > a:last-of-type{
+.head-links > a:last-of-type{
     border-bottom: none;
 }
 
-.head-summary .discussion {
+.head-links .discussion {
     background-image: url('images/ic_comment_black_48dp_2x.png');
     background-position: left 15px center;
     background-size: 50px;
@@ -369,20 +363,21 @@ a.origin-link:hover {
     padding-left: 80px;
 }
 
-.head-summary .author {
-    background-image: url('images/ic_account_circle_black_48dp_2x.png');
-    background-position: left 15px center;
+.head-links .author {
+    background-image: url('images/baseline_account_circle_white_48dp.png');
+    background-position: left center;
     background-size: 50px;
     background-repeat: no-repeat;
-    padding-left: 80px;
+    padding-left: 70px;
 }
 
-.head-summary .game {
-    background-image: url('images/ic_videogame_asset_black_48dp_2x.png');
-    background-position: left 15px center;
-    background-size: 50px;
+.head-links .game {
+    background-image: url('https://steamcdn-a.akamaihd.net/store/about/icon-steamos.svg');
+    background-position: left center;
+    background-size: 42px;
     background-repeat: no-repeat;
-    padding-left: 80px;
+    padding-left: 70px;
+    margin-left: 50px;
 }
 
 .content-discussion-link {
@@ -396,6 +391,19 @@ a.origin-link:hover {
 
 .content-discussion-link:hover{
     background-color: #e5e5e5;
+}
+
+.read-more {
+    color: #07d1da;
+    background-color: #28429b;
+    border-radius: 3px;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.read-more:hover {
+    background-color: #2d6bcd;
 }
 
 @media (max-width: 1024px) {
@@ -412,16 +420,8 @@ a.origin-link:hover {
         float: right;
     }
 
-    .article-header {
-        width: auto;
-    }
-
     .content {
         width: auto;
-    }
-
-    .in-article-image {
-        width: 100%;
     }
 
     .index-highlight {
@@ -438,10 +438,6 @@ a.origin-link:hover {
 
     .header {
         padding: 5px 50px;
-    }
-
-    .adv-block {
-        width: auto;
     }
 }
 
