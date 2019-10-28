@@ -407,21 +407,27 @@ a.origin-link:hover {
 }
 
 @media (max-width: 1024px) {
+    .title {
+        width: auto;
+    }
+
     .nav {
         width: auto;
     }
 
     footer > .content {
-        width: auto;
+        width: 100%;
     }
 
+    footer > div,
     footer .social-links {
-        margin-left: 50px;
-        float: right;
+        text-align: center;
+        padding: 15px;
     }
 
     .content {
         width: auto;
+        padding: 15px;
     }
 
     .index-highlight {
@@ -437,7 +443,37 @@ a.origin-link:hover {
     }
 
     .header {
-        padding: 5px 50px;
+        padding: 15px;
+    }
+
+    .article-list-item {
+        padding: 15px;
+        background-size: contain;
+        height: auto;
+        padding-top: 50%;
+    }
+
+    .in-article-image {
+        width: 100%;
+    }
+
+    .article-header {
+        margin: 150px 5px 5px 5px;
+        padding: 15px;
+        width: auto;
+    }
+
+    .head-links .game {
+        margin-left: 0;
+    }
+
+    .content.article-content {
+        padding: 200px 15px 15px  15px;
+    }
+
+    .money-block {
+        padding: 0;
+        width: 100%;
     }
 }
 
